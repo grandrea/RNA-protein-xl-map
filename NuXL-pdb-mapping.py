@@ -8,7 +8,7 @@ parser = PDBParser(QUIET=True)
 structure = parser.get_structure("X", "260126_nsun2_tRNA_fitted_on640.pdb")
 nuxl_table = pd.read_csv("Peak2_NSUN2_tRNA.tsv", sep="\t")
 NA_sequence = "UCCUCGUUAGUAUAGUGGUUAGUAUCCCCGCCUGUCACGCGGGAGACXGGGGUUCAAUUCCCCGACGGGGAGCCA"
-nuxl_score_threshold = 70
+nuxl_score_threshold = 60
 distance_threshold = 15.0
 
 #define chains
@@ -270,31 +270,18 @@ def write_chimerax_pseudobonds_conditional_color(
     nuxl_table: pd.DataFrame,
     out_path: str,
     threshold: float,
-    value_col: str = "closest_chainB_dist",   # column used for thresholding
+    value_col: str = "closest_chainB_dist",
     chain_from: str = "A",
     chain_to: str = "B",
-    res_from_col: str = "best_residue_from_pdb",       # RES_FROM
-    res_to_col: str = "closest_chainB_resnum",# CLOSEST_CHAINB_RESNUM
-    atom_to_col: str = "NA_atom_to",          # NA_ATOM_TO
+    res_from_col: str = "residue_from_pdb",      # <-- FIXED
+    res_to_col: str = "closest_chainB_resnum",
+    atom_to_col: str = "NA_atom_to",
     atom_from: str = "CA",
     radius: float = 0.4,
     dashes: int = 0,
     color_low: str = "blue",
     color_high: str = "red",
 ):
-    """
-    Writes a ChimeraX pseudobond file:
-
-      ; radius = 0.4
-      ; dashes = 0
-      /A:RES_FROM@CA /B:CLOSEST_CHAINB_RESNUM@NA_ATOM_TO COLOR
-
-    COLOR is chosen per row:
-      - color_low if value_col < threshold
-      - color_high if value_col > threshold
-      - rows with missing data are skipped
-      - if value_col == threshold, uses color_low (easy to change)
-    """
     with open(out_path, "w") as f:
         f.write(f"; radius = {radius}\n")
         f.write(f"; dashes = {dashes}\n")
@@ -305,26 +292,29 @@ def write_chimerax_pseudobonds_conditional_color(
             atom_to = row.get(atom_to_col)
             val = row.get(value_col)
 
-            # skip incomplete rows
-            if pd.isna(res_from) or pd.isna(res_to) or atom_to is None or pd.isna(val):
+            # treat NaN atom_to as missing too
+            atom_to_missing = (atom_to is None) or (isinstance(atom_to, float) and np.isnan(atom_to))
+
+            if pd.isna(res_from) or pd.isna(res_to) or atom_to_missing or pd.isna(val):
                 continue
 
-            # normalize residue numbers
             try:
                 res_from = int(res_from)
                 res_to = int(res_to)
             except Exception:
                 continue
 
-            # normalize atom_to: Bio.PDB Atom object -> name, else string
+            # FIXED: always define atom_to_name
             if hasattr(atom_to, "get_name"):
                 atom_to_name = atom_to.get_name()
+            else:
+                atom_to_name = str(atom_to).strip()
 
+            if atom_to_name == "" or atom_to_name.lower() == "nan":
+                continue
 
-            # pick color
             color = color_low if float(val) <= threshold else color_high
 
-            # write line
             f.write(
                 f"/{chain_from}:{res_from}@{atom_from} "
                 f"/{chain_to}:{res_to}@{atom_to_name} "
@@ -332,6 +322,7 @@ def write_chimerax_pseudobonds_conditional_color(
             )
 
     return out_path
+
 
 def map_score_to_radius(score, score_min, score_max, radius_min, radius_max):
     if score_max == score_min:
@@ -456,7 +447,7 @@ pb_file = write_chimerax_pseudobonds_sectioned(
     nuxl_table=nuxl_table,
     out_path="nuxl_links_sectioned.pb",
     threshold=15.0,
-    nuxl_score_min=70.0,
+    nuxl_score_min=nuxl_score_threshold + 15,
     nuxl_score_max=100.0,
     radius_min=0.2,
     radius_max=1.2,
