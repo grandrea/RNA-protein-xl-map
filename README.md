@@ -6,3 +6,9 @@ handles ambiguity of RNA-protein crosslinking mapping by mapping each link to th
 
 For example A link from lysine 52 to a dinucleotide GU will be mapped from lysine 52 C alpha to to the closest atom 
 in any GU dinucleotide stretch in the model. 
+
+The radius of the pseudobonds is weighted by the confidence (NuXL score). The color by restraint satisfaction.
+
+If within a nucleotide stretch localisation confidence is high, restraint mapped to identified crosslink position.
+If localisation confidence is low, it is mapped to the closest base atom.
+
