@@ -145,7 +145,6 @@ def closest_motif_chainB_resnum_from_list(
 
     target_len = len(motif)
 
-    # --- build NA residue list + sequence once (same logic you had) ---
     na_residues = []
     na_sequence = []
 
@@ -221,6 +220,10 @@ def closest_motif_chainB_resnum_from_list(
             # scan all atoms in the matched window (your current behavior)
             for residue in window_residues:
                 for atom in residue:
+                    if not atom.get_name().startswith("C"):
+                        continue
+                    if "'" in atom.get_name():
+                         continue
                     d = atom_a - atom
                     if d < best_dist:
                         best_dist = d
