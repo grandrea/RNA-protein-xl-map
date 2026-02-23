@@ -265,6 +265,31 @@ nuxl_table[["closest_chainB_resnum", "closest_chainB_dist", "NA_atom_to", "resid
     nuxl_table.apply(apply_row, axis=1)
 )
 
+# -------------------------
+# Deduplicate pseudobonds:
+# same (residue_from_pdb, closest_chainB_resnum) => keep highest NuXLScore_score
+# tie-breaker: keep smaller closest_chainB_dist
+# -------------------------
+
+dedup_key = ["residue_from_pdb", "closest_chainB_resnum"]
+
+# remove rows that can't form a pbond
+nuxl_table = nuxl_table.dropna(subset=dedup_key + ["NuXLScore_score", "closest_chainB_dist", "NA_atom_to"])
+
+# normalize types (helps drop_duplicates behave predictably)
+nuxl_table["residue_from_pdb"] = nuxl_table["residue_from_pdb"].astype(int)
+nuxl_table["closest_chainB_resnum"] = nuxl_table["closest_chainB_resnum"].astype(int)
+nuxl_table["NA_atom_to"] = nuxl_table["NA_atom_to"].astype(str).str.strip()
+
+# sort so the "best" row is first within each duplicate group
+nuxl_table = nuxl_table.sort_values(
+    by=["NuXLScore_score", "closest_chainB_dist"],
+    ascending=[False, True],
+    kind="mergesort",  # stable sort
+)
+
+# keep only best row per (protein_res, RNA_res)
+nuxl_table = nuxl_table.drop_duplicates(subset=dedup_key, keep="first").reset_index(drop=True)
 
 # create pseudobond file
 
@@ -437,6 +462,8 @@ def write_chimerax_pseudobonds_sectioned(
         print(f"Wrote {written} pseudobonds to {out_path} (skipped {skipped})")
 
     return out_path
+
+
 
 
 pb_file = write_chimerax_pseudobonds_conditional_color(
