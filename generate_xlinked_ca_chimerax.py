@@ -141,6 +141,13 @@ def parse_args():
     parser.add_argument("--pdb", default=DEFAULT_PDB)
     parser.add_argument("--nuxl-table", default=DEFAULT_NUXL_TABLE)
     parser.add_argument("--out", default=DEFAULT_OUT)
+    parser.add_argument(
+        "--residue-report",
+        help=(
+            "CSV path for all threshold-passing residues. By default, uses the "
+            "ChimeraX output name with '_residues.csv' appended."
+        ),
+    )
     parser.add_argument("--selection-name", default=DEFAULT_SELECTION_NAME)
     parser.add_argument("--score-threshold", type=float, default=NUXL_SCORE_THRESHOLD)
     parser.add_argument(
@@ -164,6 +171,45 @@ def main():
         raise SystemExit("No protein-side crosslinked residues were found.")
 
     pdb_residues = residues_in_pdb(args.pdb)
+    all_bins, midpoint = confidence_bins(
+        residue_scores=residue_scores,
+        score_threshold=args.score_threshold,
+        max_confidence_score=args.max_confidence_score,
+    )
+    confidence_by_residue = {
+        residue: confidence
+        for confidence, residues in all_bins.items()
+        for residue in residues
+    }
+    report_path = (
+        Path(args.residue_report)
+        if args.residue_report
+        else Path(args.out).with_name(f"{Path(args.out).stem}_residues.csv")
+    )
+    report = pd.DataFrame(
+        [
+            {
+                "Residue": residue,
+                "Max_NuXLScore": score,
+                "Confidence": confidence_by_residue[residue],
+                "In_PDB": residue in pdb_residues,
+            }
+            for residue, score in sorted(residue_scores.items())
+        ]
+    )
+    report.to_csv(report_path, index=False)
+    print(
+        f"All residues passing score threshold ({len(residue_scores)} total; "
+        "before PDB filtering):"
+    )
+    print("Residue\tMax_NuXLScore\tConfidence\tIn_PDB")
+    for residue, score in sorted(residue_scores.items()):
+        print(
+            f"{residue}\t{score:.6f}\t{confidence_by_residue[residue]}\t"
+            f"{'yes' if residue in pdb_residues else 'no'}"
+        )
+    print(f"Saved residue report to {report_path}")
+
     missing_residues = [
         resnum for resnum in residue_scores if resnum not in pdb_residues
     ]
@@ -176,7 +222,7 @@ def main():
     if not scores_in_model:
         raise SystemExit("No selected protein residues are present in the PDB.")
 
-    bins, midpoint = confidence_bins(
+    bins, _ = confidence_bins(
         residue_scores=scores_in_model,
         score_threshold=args.score_threshold,
         max_confidence_score=args.max_confidence_score,

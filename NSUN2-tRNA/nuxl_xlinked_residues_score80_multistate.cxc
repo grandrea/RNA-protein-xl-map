@@ -1,0 +1,16 @@
+open "C:/Users/andrea.graziadei/Documents/SSU_develop/RNA-protein-xl-map/NSUN2-tRNA/1000frames_noH_remapped_every250.pdb"
+set bgColor white
+lighting soft
+hide #1 target a
+hide #1 target r
+hide #1 target s
+show #1/A target s
+color #1/A lightgray target s
+show #1/B target r
+nucleotides #1/B stubs
+color #1/B teal target ar
+hide #1/C target a
+name frozen nuxl_xlinked_protein_residues_score80 #1/A:39,51,52,100,138,184,281,282,354,400,532,537,561,577,599,632,640,646,650
+color nuxl_xlinked_protein_residues_score80 red target as
+transparency 30 target r
+select nuxl_xlinked_protein_residues_score80

@@ -1,0 +1,21 @@
+# NuXL confidence bins: low >60 to <72.5; medium 72.5 to <85; high >=85
+open "C:/Users/andrea.graziadei/Documents/SSU_develop/RNA-protein-xl-map/20260529_Model_pXL-EM_AC_EL 1.pdb"
+set bgColor white
+lighting soft
+hide #1 target a
+hide #1 target r
+hide #1 target s
+show #1/A target s
+color #1/A lightgray target s
+show #1/B target r
+nucleotides #1/B stubs
+color #1/B teal target ar
+name frozen nuxl_xlinked_protein_residues_score60 #1/A:37,38,39,40,41,47,51,52,75,93,100,102,138,139,182,184,257,259,262,267,281,282,284,285,286,304,308,315,354,398,400,531,532,536,537,539,546,553,561,562,572,577,599,612,629,632,633,637,638,640,644,646,647,649,650,654,689,692,702
+name frozen nuxl_xlinked_protein_residues_score60_low #1/A:47,75,102,139,182,259,262,267,286,304,315,398,536,539,553,562,572,612,629,638,644,647,649,654,689,692,702
+color nuxl_xlinked_protein_residues_score60_low gold target as
+name frozen nuxl_xlinked_protein_residues_score60_medium #1/A:40,41,93,138,257,284,285,308,354,400,531,546,633,637
+color nuxl_xlinked_protein_residues_score60_medium orange target as
+name frozen nuxl_xlinked_protein_residues_score60_high #1/A:37,38,39,51,52,100,184,281,282,532,537,561,577,599,632,640,646,650
+color nuxl_xlinked_protein_residues_score60_high red target as
+transparency 30 target r
+select nuxl_xlinked_protein_residues_score60

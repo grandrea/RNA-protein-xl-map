@@ -1,0 +1,6 @@
+Comparison,Group_1,Group_2,N_1,N_2,KS_D,P_value
+low_vs_medium,low,medium,27,14,0.2804232804232804,0.3635754827682256
+low_vs_high,low,high,27,18,0.40740740740740744,0.04469757666216446
+medium_vs_high,medium,high,14,18,0.373015873015873,0.17361660001917545
+high_shorter_vs_low,high,low,18,27,0.40740740740740744,0.022348832500139196
+high_shorter_vs_non_NuXL_background,high,non-NuXL background,18,529,0.367989918084436,0.006366119531266811
