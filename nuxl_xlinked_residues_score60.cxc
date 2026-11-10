@@ -1,5 +1,5 @@
 # NuXL confidence bins: low >60 to <72.5; medium 72.5 to <85; high >=85
-open "C:/Users/andrea.graziadei/Documents/SSU_develop/RNA-protein-xl-map/20260529_Model_pXL-EM_AC_EL 1.pdb"
+open "20260529_Model_pXL-EM_AC_EL 1.pdb"
 set bgColor white
 lighting soft
 hide #1 target a

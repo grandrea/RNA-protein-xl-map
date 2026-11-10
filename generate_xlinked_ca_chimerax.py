@@ -1,11 +1,12 @@
 from pathlib import Path
 import argparse
+import os
 
 import pandas as pd
 
 
 DEFAULT_PDB = "20260529_Model_pXL-EM_AC_EL 1.pdb"
-DEFAULT_NUXL_TABLE = "Peak2_tRNA.tsv"
+DEFAULT_NUXL_TABLE = "Peak2_NSUN2_tRNA.tsv"
 FALLBACK_NUXL_TABLE = "Peak2_NSUN2_tRNA.tsv"
 DEFAULT_OUT = "nuxl_xlinked_residues_score80.cxc"
 DEFAULT_SELECTION_NAME = "nuxl_xlinked_protein_residues"
@@ -87,8 +88,11 @@ def residue_spec(residues, chain="A", model="#1"):
     return f"{model}/{chain}:{','.join(str(resnum) for resnum in residues)}"
 
 
-def chimerax_path(path):
-    return str(Path(path).resolve()).replace("\\", "/").replace('"', '\\"')
+def chimerax_path(path, command_path):
+    relative = os.path.relpath(
+        Path(path).resolve(), Path(command_path).resolve().parent
+    )
+    return relative.replace("\\", "/").replace('"', '\\"')
 
 
 def write_chimerax_commands(
@@ -109,7 +113,7 @@ def write_chimerax_commands(
             f"medium {midpoint:g} to <{max_confidence_score:g}; "
             f"high >={max_confidence_score:g}\n"
         )
-        handle.write(f'open "{chimerax_path(pdb_path)}"\n')
+        handle.write(f'open "{chimerax_path(pdb_path, out_path)}"\n')
         handle.write("set bgColor white\n")
         handle.write("lighting soft\n")
         handle.write("hide #1 target a\n")

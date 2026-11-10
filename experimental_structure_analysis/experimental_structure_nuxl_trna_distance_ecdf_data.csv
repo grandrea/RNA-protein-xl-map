@@ -1,0 +1,648 @@
+Series,Protein_chain,Protein_residue,Protein_resname,NuXL_score,Confidence_class,Min_base_atom_distance_A,Cumulative_percent
+All modeled amino acids,A,321,CYS,,background,1.8530366461505272,0.17006802721088435
+All modeled amino acids,A,282,ASP,85.75613403320312,all NuXL scores,2.689526268210989,0.3401360544217687
+All modeled amino acids,A,269,VAL,,background,2.7870269986180936,0.5102040816326531
+All modeled amino acids,A,227,GLN,,background,2.842905241209504,0.6802721088435374
+All modeled amino acids,A,226,HIS,,background,2.8559971391366323,0.8503401360544217
+All modeled amino acids,A,281,ILE,96.59356689453124,all NuXL scores,2.872686651307749,1.0204081632653061
+All modeled amino acids,A,268,ASP,,background,2.894568582587558,1.1904761904761905
+All modeled amino acids,A,639,ARG,,background,2.918853098051479,1.3605442176870748
+All modeled amino acids,A,280,ASN,,background,2.9847155771492173,1.530612244897959
+All modeled amino acids,A,637,PHE,76.05361938476562,all NuXL scores,3.0366732800481495,1.7006802721088434
+All modeled amino acids,A,422,PHE,,background,3.106276336371921,1.870748299319728
+All modeled amino acids,A,687,ARG,,background,3.176561299600928,2.0408163265306123
+All modeled amino acids,A,223,LEU,,background,3.226610761523545,2.2108843537414966
+All modeled amino acids,A,683,LYS,,background,3.3741050698694726,2.380952380952381
+All modeled amino acids,A,602,ARG,,background,3.399387105177986,2.5510204081632653
+All modeled amino acids,A,294,GLN,,background,3.4098942883547427,2.7210884353741496
+All modeled amino acids,A,386,THR,,background,3.4271529283688844,2.891156462585034
+All modeled amino acids,A,689,PHE,65.62844848632812,all NuXL scores,3.442930482812151,3.061224489795918
+All modeled amino acids,A,222,TYR,,background,3.491511318749309,3.2312925170068025
+All modeled amino acids,A,680,TRP,,background,3.7446804383349916,3.401360544217687
+All modeled amino acids,A,291,ASN,,background,3.7580070768734104,3.5714285714285716
+All modeled amino acids,A,138,LYS,82.43722534179688,all NuXL scores,3.7623494736210965,3.741496598639456
+All modeled amino acids,A,271,SER,,background,3.7841344388056197,3.9115646258503403
+All modeled amino acids,A,593,SER,,background,3.811669811548491,4.081632653061225
+All modeled amino acids,A,165,SER,,background,3.832410814222829,4.2517006802721085
+All modeled amino acids,A,270,PRO,,background,3.843087442206631,4.421768707482993
+All modeled amino acids,A,133,ARG,,background,3.8946467828628486,4.591836734693878
+All modeled amino acids,A,283,VAL,,background,3.9699330161985893,4.761904761904762
+All modeled amino acids,A,276,THR,,background,4.021453092521083,4.931972789115647
+All modeled amino acids,A,190,LYS,,background,4.037289801220741,5.1020408163265305
+All modeled amino acids,A,137,ARG,,background,4.078717953947644,5.272108843537415
+All modeled amino acids,A,41,ILE,72.84947967529298,all NuXL scores,4.169281165301873,5.442176870748299
+All modeled amino acids,A,37,GLY,92.42327880859376,all NuXL scores,4.273840845183198,5.612244897959184
+All modeled amino acids,A,38,TYR,150.92076110839844,all NuXL scores,4.300221840890811,5.782312925170068
+All modeled amino acids,A,272,SER,,background,4.313083787252794,5.9523809523809526
+All modeled amino acids,A,295,LEU,,background,4.3176506766116995,6.122448979591836
+All modeled amino acids,A,279,LYS,,background,4.4261368933447125,6.292517006802721
+All modeled amino acids,A,591,ASN,,background,4.803491006866528,6.462585034013605
+All modeled amino acids,A,320,THR,,background,4.883552907037445,6.63265306122449
+All modeled amino acids,A,319,SER,,background,4.891635175626071,6.802721088435374
+All modeled amino acids,A,273,GLY,,background,4.945944134698461,6.9727891156462585
+All modeled amino acids,A,219,LYS,,background,4.981232637746227,7.142857142857143
+All modeled amino acids,A,684,ALA,,background,5.189052322675056,7.312925170068027
+All modeled amino acids,A,518,ASP,,background,5.211826070648867,7.482993197278912
+All modeled amino acids,A,592,ASN,,background,5.215659175393431,7.653061224489796
+All modeled amino acids,A,595,GLU,,background,5.302538957900643,7.8231292517006805
+All modeled amino acids,A,187,PRO,,background,5.337458432538399,7.993197278911564
+All modeled amino acids,A,688,THR,,background,5.344071395877117,8.16326530612245
+All modeled amino acids,A,517,GLU,,background,5.564413911261019,8.333333333333334
+All modeled amino acids,A,162,GLU,,background,5.633770752701363,8.503401360544217
+All modeled amino acids,A,164,VAL,,background,5.674635473437254,8.673469387755102
+All modeled amino acids,A,640,LYS,86.72212219238281,all NuXL scores,5.795918031587477,8.843537414965986
+All modeled amino acids,A,558,ARG,,background,5.967298249441296,9.013605442176871
+All modeled amino acids,A,220,ARG,,background,6.124303593951654,9.183673469387756
+All modeled amino acids,A,290,LEU,,background,6.125292870797796,9.353741496598639
+All modeled amino acids,A,43,LYS,,background,6.167456801885481,9.523809523809524
+All modeled amino acids,A,322,SER,,background,6.185424644963848,9.693877551020408
+All modeled amino acids,A,292,SER,,background,6.191487952358526,9.863945578231293
+All modeled amino acids,A,286,LYS,61.5511589050293,all NuXL scores,6.206049101923246,10.034013605442176
+All modeled amino acids,A,298,LEU,,background,6.261306951468166,10.204081632653061
+All modeled amino acids,A,184,CYS,94.08053588867188,all NuXL scores,6.279958532093951,10.374149659863946
+All modeled amino acids,A,634,GLU,,background,6.306042945363709,10.54421768707483
+All modeled amino acids,A,387,GLN,,background,6.312062040601867,10.714285714285714
+All modeled amino acids,A,421,GLY,,background,6.315484967059127,10.884353741496598
+All modeled amino acids,A,594,GLY,,background,6.343026589025875,11.054421768707483
+All modeled amino acids,A,551,ARG,,background,6.531495000546655,11.224489795918368
+All modeled amino acids,A,690,VAL,,background,6.5599062950340254,11.394557823129253
+All modeled amino acids,A,218,ASN,,background,6.603112887175573,11.564625850340136
+All modeled amino acids,A,635,ASN,,background,6.657555759286261,11.73469387755102
+All modeled amino acids,A,160,ARG,,background,6.666532363261929,11.904761904761905
+All modeled amino acids,A,559,GLN,,background,6.773144584385336,12.07482993197279
+All modeled amino acids,A,277,MET,,background,6.796828034477781,12.244897959183673
+All modeled amino acids,A,189,SER,,background,6.844039361475403,12.414965986394558
+All modeled amino acids,A,299,GLN,,background,6.871292363080532,12.585034013605442
+All modeled amino acids,A,168,PRO,,background,6.888155790347433,12.755102040816327
+All modeled amino acids,A,274,ASP,,background,6.927373600490479,12.92517006802721
+All modeled amino acids,A,682,GLY,,background,6.938825309081587,13.095238095238095
+All modeled amino acids,A,581,ILE,,background,6.986109953167488,13.26530612244898
+All modeled amino acids,A,679,GLY,,background,7.003834683458501,13.435374149659864
+All modeled amino acids,A,230,ARG,,background,7.037932207237969,13.605442176870747
+All modeled amino acids,A,39,PRO,102.20441436767578,all NuXL scores,7.0796117934357605,13.775510204081632
+All modeled amino acids,A,225,VAL,,background,7.0916944895724825,13.945578231292517
+All modeled amino acids,A,224,LEU,,background,7.191175914647384,14.115646258503402
+All modeled amino acids,A,150,VAL,,background,7.224281932279416,14.285714285714286
+All modeled amino acids,A,267,CYS,69.10436248779297,all NuXL scores,7.227516881001296,14.45578231292517
+All modeled amino acids,A,275,GLY,,background,7.240180190911124,14.625850340136054
+All modeled amino acids,A,603,LEU,,background,7.310764208800386,14.795918367346939
+All modeled amino acids,A,284,TRP,74.72635650634764,all NuXL scores,7.331020107137073,14.965986394557824
+All modeled amino acids,A,154,GLU,,background,7.381469986465518,15.136054421768707
+All modeled amino acids,A,678,CYS,,background,7.440947784972161,15.306122448979592
+All modeled amino acids,A,685,SER,,background,7.445363746120958,15.476190476190476
+All modeled amino acids,A,161,GLN,,background,7.457199159061772,15.646258503401361
+All modeled amino acids,A,188,GLY,,background,7.4665498963062085,15.816326530612244
+All modeled amino acids,A,389,ARG,,background,7.484385834913441,15.986394557823129
+All modeled amino acids,A,582,ASN,,background,7.508387358247497,16.156462585034014
+All modeled amino acids,A,186,ALA,,background,7.530916686843589,16.3265306122449
+All modeled amino acids,A,681,ARG,,background,7.531496864287626,16.496598639455783
+All modeled amino acids,A,293,LEU,,background,7.540070065300876,16.666666666666668
+All modeled amino acids,A,288,THR,,background,7.574047742332141,16.836734693877553
+All modeled amino acids,A,40,GLU,79.9039764404297,all NuXL scores,7.588803338304089,17.006802721088434
+All modeled amino acids,A,638,PHE,68.715087890625,all NuXL scores,7.608335006238087,17.17687074829932
+All modeled amino acids,A,590,ARG,,background,7.610690845336962,17.346938775510203
+All modeled amino acids,A,285,LYS,73.07210540771484,all NuXL scores,7.621932962706357,17.517006802721088
+All modeled amino acids,A,516,LYS,,background,7.633249132703102,17.687074829931973
+All modeled amino acids,A,589,CYS,,background,7.639791522881347,17.857142857142858
+All modeled amino acids,A,166,MET,,background,7.6557357836983275,18.027210884353742
+All modeled amino acids,A,301,ARG,,background,7.662224046705891,18.197278911564627
+All modeled amino acids,A,656,SER,,background,7.685554497476007,18.367346938775512
+All modeled amino acids,A,423,PHE,,background,7.715057460240774,18.537414965986393
+All modeled amino acids,A,153,THR,,background,7.7153030053026335,18.707482993197278
+All modeled amino acids,A,655,GLY,,background,7.749941758540056,18.877551020408163
+All modeled amino acids,A,278,ARG,,background,7.760896389000545,19.047619047619047
+All modeled amino acids,A,385,HIS,,background,7.908713588998054,19.217687074829932
+All modeled amino acids,A,327,GLU,,background,7.917678155590306,19.387755102040817
+All modeled amino acids,A,146,HIS,,background,7.974826448431989,19.5578231292517
+All modeled amino acids,A,296,HIS,,background,8.035775946722215,19.727891156462587
+All modeled amino acids,A,221,CYS,,background,8.09193423808628,19.897959183673468
+All modeled amino acids,A,287,TRP,,background,8.094021682911306,20.068027210884352
+All modeled amino acids,A,42,VAL,,background,8.094512174157863,20.238095238095237
+All modeled amino acids,A,691,PRO,,background,8.097544649589937,20.408163265306122
+All modeled amino acids,A,134,LYS,,background,8.102349945024432,20.578231292517007
+All modeled amino acids,A,561,TYR,107.31243133544922,all NuXL scores,8.117313474672597,20.74829931972789
+All modeled amino acids,A,605,GLN,,background,8.222891088440788,20.918367346938776
+All modeled amino acids,A,596,GLU,,background,8.278024726481627,21.08843537414966
+All modeled amino acids,A,217,ASP,,background,8.347859213163696,21.258503401360546
+All modeled amino acids,A,646,TYR,96.05166625976562,all NuXL scores,8.37027053337664,21.428571428571427
+All modeled amino acids,A,185,ALA,,background,8.372267665654578,21.598639455782312
+All modeled amino acids,A,228,ALA,,background,8.407600704023217,21.768707482993197
+All modeled amino acids,A,604,ALA,,background,8.437127848723721,21.93877551020408
+All modeled amino acids,A,289,THR,,background,8.501865790266303,22.108843537414966
+All modeled amino acids,A,318,TYR,,background,8.602709458366572,22.27891156462585
+All modeled amino acids,A,686,ILE,,background,8.62312909003183,22.448979591836736
+All modeled amino acids,A,163,ALA,,background,8.685604741601992,22.61904761904762
+All modeled amino acids,A,424,VAL,,background,8.705491837868923,22.789115646258505
+All modeled amino acids,A,297,GLY,,background,8.775980909623138,22.959183673469386
+All modeled amino acids,A,167,ILE,,background,8.847678972346927,23.12925170068027
+All modeled amino acids,A,650,LYS,105.24790954589844,all NuXL scores,8.901890219965363,23.299319727891156
+All modeled amino acids,A,554,GLU,,background,8.912259871946778,23.46938775510204
+All modeled amino acids,A,388,ILE,,background,8.952853294644385,23.639455782312925
+All modeled amino acids,A,383,SER,,background,8.967944048165549,23.80952380952381
+All modeled amino acids,A,229,LYS,,background,9.03934236915129,23.979591836734695
+All modeled amino acids,A,216,VAL,,background,9.094561879593238,24.14965986394558
+All modeled amino acids,A,169,PRO,,background,9.117534239880943,24.31972789115646
+All modeled amino acids,A,636,PRO,,background,9.131571242206928,24.489795918367346
+All modeled amino acids,A,420,GLY,,background,9.143917536329738,24.65986394557823
+All modeled amino acids,A,302,ILE,,background,9.22843184515097,24.829931972789115
+All modeled amino acids,A,266,LEU,,background,9.232360338862566,25.0
+All modeled amino acids,A,601,PHE,,background,9.248699994467595,25.170068027210885
+All modeled amino acids,A,600,ALA,,background,9.253265378261398,25.34013605442177
+All modeled amino acids,A,586,LYS,,background,9.282690125450491,25.510204081632654
+All modeled amino acids,A,552,THR,,background,9.352432020524832,25.68027210884354
+All modeled amino acids,A,580,VAL,,background,9.355560397842671,25.85034013605442
+All modeled amino acids,A,182,ASP,62.21749114990234,all NuXL scores,9.360176394811749,26.020408163265305
+All modeled amino acids,A,328,ASP,,background,9.444600542946612,26.19047619047619
+All modeled amino acids,A,369,LYS,,background,9.475887254764169,26.360544217687075
+All modeled amino acids,A,657,ILE,,background,9.482052425019845,26.53061224489796
+All modeled amino acids,A,183,MET,,background,9.486291966427428,26.700680272108844
+All modeled amino acids,A,74,LEU,,background,9.499722932701776,26.87074829931973
+All modeled amino acids,A,323,LEU,,background,9.529780625343076,27.040816326530614
+All modeled amino acids,A,579,LYS,,background,9.590251178184197,27.210884353741495
+All modeled amino acids,A,654,LYS,60.7514533996582,all NuXL scores,9.650046526386985,27.38095238095238
+All modeled amino acids,A,215,ASP,,background,9.664143957866246,27.551020408163264
+All modeled amino acids,A,384,ARG,,background,9.667663333926175,27.72108843537415
+All modeled amino acids,A,695,ARG,,background,9.705423841906768,27.891156462585034
+All modeled amino acids,A,599,CYS,93.76800537109376,all NuXL scores,9.733285516323866,28.06122448979592
+All modeled amino acids,A,392,MET,,background,9.768502017853384,28.231292517006803
+All modeled amino acids,A,192,THR,,background,9.830934654836478,28.401360544217688
+All modeled amino acids,A,692,LYS,65.15971374511719,all NuXL scores,9.971341945054508,28.571428571428573
+All modeled amino acids,A,159,SER,,background,9.978700309367742,28.741496598639454
+All modeled amino acids,A,412,ILE,,background,10.14059378491224,28.91156462585034
+All modeled amino acids,A,519,PRO,,background,10.18596308717645,29.081632653061224
+All modeled amino acids,A,606,GLU,,background,10.329272227322488,29.25170068027211
+All modeled amino acids,A,149,LEU,,background,10.354735556127265,29.421768707482993
+All modeled amino acids,A,317,VAL,,background,10.367825414179494,29.591836734693878
+All modeled amino acids,A,73,PRO,,background,10.37146884997347,29.761904761904763
+All modeled amino acids,A,556,LYS,,background,10.43036027096696,29.931972789115648
+All modeled amino acids,A,597,PHE,,background,10.446815095868043,30.102040816326532
+All modeled amino acids,A,71,ARG,,background,10.449820685877624,30.272108843537413
+All modeled amino acids,A,382,HIS,,background,10.547254074578195,30.4421768707483
+All modeled amino acids,A,193,GLN,,background,10.576925960562216,30.612244897959183
+All modeled amino acids,A,520,PHE,,background,10.699426408129925,30.782312925170068
+All modeled amino acids,A,139,SER,71.43498229980469,all NuXL scores,10.713030486049123,30.952380952380953
+All modeled amino acids,A,158,ILE,,background,10.81713221289653,31.122448979591837
+All modeled amino acids,A,537,TYR,88.5503158569336,all NuXL scores,10.840320749669695,31.292517006802722
+All modeled amino acids,A,677,LEU,,background,10.84262970017992,31.462585034013607
+All modeled amino acids,A,588,TRP,,background,10.875694794897715,31.632653061224488
+All modeled amino acids,A,214,ASN,,background,10.928167941770896,31.802721088435373
+All modeled amino acids,A,242,ASP,,background,11.039431250145824,31.972789115646258
+All modeled amino acids,A,238,VAL,,background,11.052451876626762,32.142857142857146
+All modeled amino acids,A,191,THR,,background,11.054693857067848,32.31292517006803
+All modeled amino acids,A,245,SER,,background,11.076386064474505,32.48299319727891
+All modeled amino acids,A,583,THR,,background,11.126249487552256,32.6530612244898
+All modeled amino acids,A,135,ILE,,background,11.151082607153157,32.82312925170068
+All modeled amino acids,A,70,LEU,,background,11.153256328689988,32.993197278911566
+All modeled amino acids,A,419,THR,,background,11.153512221590129,33.16326530612245
+All modeled amino acids,A,324,ASN,,background,11.155426212464622,33.333333333333336
+All modeled amino acids,A,641,LEU,,background,11.168630442322506,33.50340136054422
+All modeled amino acids,A,151,SER,,background,11.233850051605469,33.673469387755105
+All modeled amino acids,A,136,LEU,,background,11.388118645182038,33.843537414965986
+All modeled amino acids,A,553,THR,71.93098449707031,all NuXL scores,11.437038041436784,34.01360544217687
+All modeled amino acids,A,77,THR,,background,11.44060961480183,34.183673469387756
+All modeled amino acids,A,633,GLN,76.449462890625,all NuXL scores,11.45209583021143,34.35374149659864
+All modeled amino acids,A,48,PHE,,background,11.487013358105996,34.523809523809526
+All modeled amino acids,A,72,GLU,,background,11.48794897547477,34.69387755102041
+All modeled amino acids,A,536,PHE,66.63477325439453,all NuXL scores,11.506409738950065,34.863945578231295
+All modeled amino acids,A,244,SER,,background,11.541084019773026,35.034013605442176
+All modeled amino acids,A,587,VAL,,background,11.550458707179214,35.204081632653065
+All modeled amino acids,A,155,SER,,background,11.557792897839326,35.374149659863946
+All modeled amino acids,A,132,SER,,background,11.577385576275855,35.54421768707483
+All modeled amino acids,A,44,GLU,,background,11.632487279234532,35.714285714285715
+All modeled amino acids,A,694,GLU,,background,11.643605896383258,35.8843537414966
+All modeled amino acids,A,557,LYS,,background,11.64988319030041,36.054421768707485
+All modeled amino acids,A,618,ARG,,background,11.716849611047103,36.224489795918366
+All modeled amino acids,A,243,ALA,,background,11.71752238047392,36.394557823129254
+All modeled amino acids,A,390,PRO,,background,11.729118105592978,36.564625850340136
+All modeled amino acids,A,425,ALA,,background,11.743450147069478,36.734693877551024
+All modeled amino acids,A,410,LEU,,background,11.754750223901326,36.904761904761905
+All modeled amino acids,A,653,ALA,,background,11.761106336372853,37.074829931972786
+All modeled amino acids,A,79,ARG,,background,11.782740417471645,37.244897959183675
+All modeled amino acids,A,630,LEU,,background,11.809627032132424,37.414965986394556
+All modeled amino acids,A,693,ASN,,background,11.810104856518963,37.585034013605444
+All modeled amino acids,A,45,ASN,,background,11.884173110072584,37.755102040816325
+All modeled amino acids,A,120,TRP,,background,11.891803138957039,37.925170068027214
+All modeled amino acids,A,550,THR,,background,11.936292632854247,38.095238095238095
+All modeled amino acids,A,152,GLU,,background,12.075842437324225,38.265306122448976
+All modeled amino acids,A,377,TRP,,background,12.103151513419798,38.435374149659864
+All modeled amino acids,A,231,LEU,,background,12.108817276950122,38.605442176870746
+All modeled amino acids,A,300,LEU,,background,12.157116386334001,38.775510204081634
+All modeled amino acids,A,326,ILE,,background,12.166093508024833,38.945578231292515
+All modeled amino acids,A,156,GLY,,background,12.19811156221472,39.1156462585034
+All modeled amino acids,A,331,VAL,,background,12.218271357753144,39.285714285714285
+All modeled amino acids,A,303,ALA,,background,12.229303072156194,39.45578231292517
+All modeled amino acids,A,659,LEU,,background,12.26235005569741,39.625850340136054
+All modeled amino acids,A,240,ASN,,background,12.286119838503007,39.795918367346935
+All modeled amino acids,A,598,ASP,,background,12.301865001062003,39.965986394557824
+All modeled amino acids,A,391,THR,,background,12.32363242906086,40.136054421768705
+All modeled amino acids,A,170,LEU,,background,12.365519692305366,40.30612244897959
+All modeled amino acids,A,414,PRO,,background,12.427127369238745,40.476190476190474
+All modeled amino acids,A,147,GLN,,background,12.433830513754232,40.64625850340136
+All modeled amino acids,A,52,TYR,87.17488098144531,all NuXL scores,12.508259303070478,40.816326530612244
+All modeled amino acids,A,76,ALA,,background,12.508990927447464,40.98639455782313
+All modeled amino acids,A,649,ALA,65.88064575195312,all NuXL scores,12.560537492091427,41.156462585034014
+All modeled amino acids,A,411,ARG,,background,12.631529255760674,41.326530612244895
+All modeled amino acids,A,658,VAL,,background,12.635532267051236,41.49659863945578
+All modeled amino acids,A,560,LEU,,background,12.65361449176764,41.666666666666664
+All modeled amino acids,A,608,ILE,,background,12.668296615324596,41.83673469387755
+All modeled amino acids,A,607,GLY,,background,12.676274720962748,42.006802721088434
+All modeled amino acids,A,631,LEU,,background,12.69110007383095,42.17687074829932
+All modeled amino acids,A,140,PRO,,background,12.774561716219733,42.3469387755102
+All modeled amino acids,A,316,MET,,background,12.862240362140916,42.51700680272109
+All modeled amino acids,A,305,ARG,,background,12.955018334169525,42.68707482993197
+All modeled amino acids,A,75,PRO,60.17421722412109,all NuXL scores,12.965453136817182,42.857142857142854
+All modeled amino acids,A,413,LEU,,background,13.005401876396416,43.02721088435374
+All modeled amino acids,A,171,LEU,,background,13.044782978937402,43.197278911564624
+All modeled amino acids,A,381,PRO,,background,13.120592111029765,43.36734693877551
+All modeled amino acids,A,584,GLY,,background,13.130342148280912,43.53741496598639
+All modeled amino acids,A,417,GLN,,background,13.140138986426244,43.70748299319728
+All modeled amino acids,A,332,ILE,,background,13.172156563380044,43.87755102040816
+All modeled amino acids,A,181,LEU,,background,13.232169571466947,44.04761904761905
+All modeled amino acids,A,676,VAL,,background,13.253501394600729,44.21768707482993
+All modeled amino acids,A,78,LEU,,background,13.272950833776378,44.38775510204081
+All modeled amino acids,A,265,ILE,,background,13.349825428239997,44.5578231292517
+All modeled amino acids,A,239,VAL,,background,13.356897442421792,44.72789115646258
+All modeled amino acids,A,368,THR,,background,13.412087743428836,44.89795918367347
+All modeled amino acids,A,194,LEU,,background,13.451258983606696,45.06802721088435
+All modeled amino acids,A,148,PHE,,background,13.5471533579059,45.23809523809524
+All modeled amino acids,A,329,GLU,,background,13.6472418727123,45.40816326530612
+All modeled amino acids,A,355,LEU,,background,13.654134847849306,45.57823129251701
+All modeled amino acids,A,632,THR,92.63966369628906,all NuXL scores,13.666915112925375,45.74829931972789
+All modeled amino acids,A,143,GLU,,background,13.667611718073566,45.91836734693877
+All modeled amino acids,A,236,ILE,,background,13.715608856551597,46.08843537414966
+All modeled amino acids,A,380,VAL,,background,13.754080612413853,46.25850340136054
+All modeled amino acids,A,642,SER,,background,13.786258280348083,46.42857142857143
+All modeled amino acids,A,145,PHE,,background,13.947159277759477,46.59863945578231
+All modeled amino acids,A,195,ILE,,background,13.981632852633759,46.7687074829932
+All modeled amino acids,A,418,ASN,,background,14.001492588937387,46.93877551020408
+All modeled amino acids,A,157,ASN,,background,14.004919828654092,47.10884353741496
+All modeled amino acids,A,645,THR,,background,14.011546555287763,47.27891156462585
+All modeled amino acids,A,549,LEU,,background,14.01263679487291,47.44897959183673
+All modeled amino acids,A,69,ALA,,background,14.063179441676098,47.61904761904762
+All modeled amino acids,A,121,TYR,,background,14.123784013668319,47.7891156462585
+All modeled amino acids,A,555,GLY,,background,14.17280871462006,47.95918367346939
+All modeled amino acids,A,213,ALA,,background,14.204301942788495,48.12925170068027
+All modeled amino acids,A,118,LEU,,background,14.210150206649734,48.29931972789116
+All modeled amino acids,A,647,SER,65.98009490966797,all NuXL scores,14.221894876764946,48.46938775510204
+All modeled amino acids,A,367,MET,,background,14.257159762681024,48.63945578231292
+All modeled amino acids,A,352,LEU,,background,14.262700358502636,48.80952380952381
+All modeled amino acids,A,241,HIS,,background,14.276584610260135,48.97959183673469
+All modeled amino acids,A,237,MET,,background,14.319601394064613,49.14965986394558
+All modeled amino acids,A,172,LEU,,background,14.320337335712527,49.31972789115646
+All modeled amino acids,A,370,ASP,,background,14.344933549730712,49.48979591836735
+All modeled amino acids,A,585,ILE,,background,14.349096774987673,49.65986394557823
+All modeled amino acids,A,325,PRO,,background,14.408406285706505,49.82993197278912
+All modeled amino acids,A,698,TYR,,background,14.479096136675619,50.0
+All modeled amino acids,A,652,LEU,,background,14.479676223092122,50.17006802721088
+All modeled amino acids,A,696,LEU,,background,14.527190430987162,50.34013605442177
+All modeled amino acids,A,51,TYR,108.86892700195312,all NuXL scores,14.621926015724314,50.51020408163265
+All modeled amino acids,A,142,LEU,,background,14.631629540761736,50.68027210884354
+All modeled amino acids,A,629,ILE,67.26303100585938,all NuXL scores,14.63391978047879,50.85034013605442
+All modeled amino acids,A,196,GLU,,background,14.670773583879503,51.02040816326531
+All modeled amino acids,A,246,ILE,,background,14.736458138809681,51.19047619047619
+All modeled amino acids,A,366,VAL,,background,14.763087210848022,51.36054421768708
+All modeled amino acids,A,426,VAL,,background,14.773291051270649,51.53061224489796
+All modeled amino acids,A,620,ILE,,background,14.78652020334392,51.70068027210884
+All modeled amino acids,A,521,VAL,,background,14.844793923369346,51.87074829931973
+All modeled amino acids,A,66,PHE,,background,14.934086589440701,52.04081632653061
+All modeled amino acids,A,81,THR,,background,14.96646934063593,52.2108843537415
+All modeled amino acids,A,212,ILE,,background,14.99893292928331,52.38095238095238
+All modeled amino acids,A,304,THR,62.01580047607422,all NuXL scores,14.99906416239296,52.55102040816327
+All modeled amino acids,A,651,ASP,,background,15.020228176170876,52.72108843537415
+All modeled amino acids,A,578,MET,,background,15.080778046843657,52.89115646258504
+All modeled amino acids,A,643,SER,,background,15.151225593396173,53.06122448979592
+All modeled amino acids,A,393,PHE,,background,15.165500938136288,53.2312925170068
+All modeled amino acids,A,306,GLY,,background,15.181333742528839,53.40136054421769
+All modeled amino acids,A,357,TRP,,background,15.217082200551335,53.57142857142857
+All modeled amino acids,A,131,LEU,,background,15.239189277624758,53.74149659863946
+All modeled amino acids,A,128,HIS,,background,15.258726863524506,53.91156462585034
+All modeled amino acids,A,427,LEU,,background,15.298562905980614,54.08163265306123
+All modeled amino acids,A,67,MET,,background,15.333016986601525,54.25170068027211
+All modeled amino acids,A,68,ASP,,background,15.375939942449117,54.42176870748299
+All modeled amino acids,A,409,CYS,,background,15.409178130996716,54.59183673469388
+All modeled amino acids,A,308,GLU,78.611572265625,all NuXL scores,15.415159001556312,54.76190476190476
+All modeled amino acids,A,232,SER,,background,15.432413579000489,54.93197278911565
+All modeled amino acids,A,330,ALA,,background,15.433622383454173,55.10204081632653
+All modeled amino acids,A,338,LYS,,background,15.507272254968026,55.27210884353742
+All modeled amino acids,A,141,HIS,,background,15.520513470822316,55.4421768707483
+All modeled amino acids,A,609,TYR,,background,15.55049030614853,55.61224489795919
+All modeled amino acids,A,611,LEU,,background,15.572542546846222,55.78231292517007
+All modeled amino acids,A,47,LEU,64.99573516845703,all NuXL scores,15.585947842659138,55.95238095238095
+All modeled amino acids,A,435,TRP,,background,15.592964104907118,56.12244897959184
+All modeled amino acids,A,129,THR,,background,15.620528813018318,56.29251700680272
+All modeled amino acids,A,415,HIS,,background,15.630238490905034,56.46258503401361
+All modeled amino acids,A,374,PHE,,background,15.634854075756751,56.63265306122449
+All modeled amino acids,A,699,LEU,,background,15.66386170607504,56.802721088435376
+All modeled amino acids,A,648,GLN,,background,15.682514309510417,56.97278911564626
+All modeled amino acids,A,180,ILE,,background,15.7018135157368,57.142857142857146
+All modeled amino acids,A,437,LYS,,background,15.714741746240561,57.31292517006803
+All modeled amino acids,A,144,LYS,,background,15.761064054982718,57.48299319727891
+All modeled amino acids,A,126,ALA,,background,15.768964032570103,57.6530612244898
+All modeled amino acids,A,627,VAL,,background,15.782004261941127,57.82312925170068
+All modeled amino acids,A,197,MET,,background,15.81690924960855,57.993197278911566
+All modeled amino acids,A,533,ILE,,background,15.828597707135383,58.16326530612245
+All modeled amino acids,A,335,LEU,,background,15.837011750776796,58.333333333333336
+All modeled amino acids,A,356,LYS,,background,15.893123584460414,58.50340136054422
+All modeled amino acids,A,675,ILE,,background,15.895107195623972,58.673469387755105
+All modeled amino acids,A,80,ILE,,background,16.029284821664604,58.843537414965986
+All modeled amino acids,A,562,MET,69.81817626953125,all NuXL scores,16.16163677854466,59.01360544217687
+All modeled amino acids,A,211,VAL,,background,16.166429538638784,59.183673469387756
+All modeled amino acids,A,626,ASP,,background,16.173833962810008,59.35374149659864
+All modeled amino acids,A,615,ILE,,background,16.190851624684456,59.523809523809526
+All modeled amino acids,A,49,GLU,,background,16.192525966953426,59.69387755102041
+All modeled amino acids,A,57,ILE,,background,16.197859358139542,59.863945578231295
+All modeled amino acids,A,436,ASN,,background,16.286604729163702,60.034013605442176
+All modeled amino acids,A,247,PRO,,background,16.354077567238537,60.204081632653065
+All modeled amino acids,A,248,ARG,,background,16.36473152823037,60.374149659863946
+All modeled amino acids,A,358,MET,,background,16.379319246060888,60.54421768707483
+All modeled amino acids,A,46,LYS,,background,16.38516146670039,60.714285714285715
+All modeled amino acids,A,334,SER,,background,16.431633628009756,60.8843537414966
+All modeled amino acids,A,127,TRP,,background,16.46042533099946,61.054421768707485
+All modeled amino acids,A,571,LEU,,background,16.549046053005327,61.224489795918366
+All modeled amino acids,A,307,ALA,,background,16.598368472334553,61.394557823129254
+All modeled amino acids,A,644,GLU,67.91542053222656,all NuXL scores,16.629107443125445,61.564625850340136
+All modeled amino acids,A,84,LYS,,background,16.632471361044303,61.734693877551024
+All modeled amino acids,A,563,VAL,,background,16.637597396652804,61.904761904761905
+All modeled amino acids,A,619,ILE,,background,16.66054924675412,62.074829931972786
+All modeled amino acids,A,617,SER,,background,16.679688773602546,62.244897959183675
+All modeled amino acids,A,697,HIS,,background,16.706790939696152,62.414965986394556
+All modeled amino acids,A,660,LYS,,background,16.752192558939573,62.585034013605444
+All modeled amino acids,A,628,LYS,,background,16.77878995030248,62.755102040816325
+All modeled amino acids,A,416,HIS,,background,16.78548554927882,62.925170068027214
+All modeled amino acids,A,233,SER,,background,16.788036540125642,63.095238095238095
+All modeled amino acids,A,264,ARG,,background,16.825712543230058,63.265306122448976
+All modeled amino acids,A,371,GLY,,background,16.878168253061528,63.435374149659864
+All modeled amino acids,A,174,VAL,,background,16.892581988290562,63.605442176870746
+All modeled amino acids,A,575,SER,,background,16.932707921366735,63.775510204081634
+All modeled amino acids,A,348,VAL,,background,16.989998800393927,63.945578231292515
+All modeled amino acids,A,529,LEU,,background,17.038296757195685,64.1156462585034
+All modeled amino acids,A,315,ARG,62.17670440673828,all NuXL scores,17.075839744701845,64.28571428571429
+All modeled amino acids,A,532,PRO,122.78913879394533,all NuXL scores,17.138010327339362,64.45578231292517
+All modeled amino acids,A,108,ASP,,background,17.244260114916624,64.62585034013605
+All modeled amino acids,A,333,ALA,,background,17.29439240485517,64.79591836734694
+All modeled amino acids,A,408,ARG,,background,17.376947645937463,64.96598639455782
+All modeled amino acids,A,83,TYR,,background,17.416867103968354,65.1360544217687
+All modeled amino acids,A,372,GLN,,background,17.461107834796152,65.3061224489796
+All modeled amino acids,A,173,ASN,,background,17.491518926325917,65.47619047619048
+All modeled amino acids,A,55,LEU,,background,17.50620986030406,65.64625850340136
+All modeled amino acids,A,345,LEU,,background,17.559500470563066,65.81632653061224
+All modeled amino acids,A,523,ILE,,background,17.57213904700549,65.98639455782313
+All modeled amino acids,A,622,VAL,,background,17.62457231582064,66.15646258503402
+All modeled amino acids,A,125,LEU,,background,17.63138120765925,66.3265306122449
+All modeled amino acids,A,522,PHE,,background,17.697203580090456,66.49659863945578
+All modeled amino acids,A,577,LYS,98.7535400390625,all NuXL scores,17.73746547108979,66.66666666666667
+All modeled amino acids,A,610,THR,,background,17.739315307045537,66.83673469387755
+All modeled amino acids,A,548,LEU,,background,17.94342014475039,67.00680272108843
+All modeled amino acids,A,309,GLN,,background,17.98555735864241,67.17687074829932
+All modeled amino acids,A,700,ARG,,background,17.991887972146536,67.34693877551021
+All modeled amino acids,A,612,TYR,68.23490142822266,all NuXL scores,18.05028511508538,67.51700680272108
+All modeled amino acids,A,365,LYS,,background,18.074272213660947,67.68707482993197
+All modeled amino acids,A,360,GLY,,background,18.10540227650517,67.85714285714286
+All modeled amino acids,A,107,VAL,,background,18.21493239523917,68.02721088435374
+All modeled amino acids,A,310,LEU,,background,18.259865832909423,68.19727891156462
+All modeled amino acids,A,351,GLU,,background,18.283538791007388,68.36734693877551
+All modeled amino acids,A,576,GLU,,background,18.293711166469723,68.5374149659864
+All modeled amino acids,A,122,PRO,,background,18.345507602866586,68.70748299319727
+All modeled amino acids,A,625,GLU,,background,18.370082969798045,68.87755102040816
+All modeled amino acids,A,94,LEU,,background,18.437091753356714,69.04761904761905
+All modeled amino acids,A,58,VAL,,background,18.51637725635654,69.21768707482993
+All modeled amino acids,A,359,PRO,,background,18.52675211563356,69.38775510204081
+All modeled amino acids,A,130,ASN,,background,18.548704425182873,69.5578231292517
+All modeled amino acids,A,63,TRP,,background,18.550590253150965,69.72789115646259
+All modeled amino acids,A,379,ALA,,background,18.579981775726285,69.89795918367346
+All modeled amino acids,A,234,PRO,,background,18.596849524732328,70.06802721088435
+All modeled amino acids,A,535,LYS,,background,18.59898892534864,70.23809523809524
+All modeled amino acids,A,354,GLY,84.230712890625,all NuXL scores,18.617305768722844,70.40816326530613
+All modeled amino acids,A,235,CYS,,background,18.665147622238507,70.578231292517
+All modeled amino acids,A,50,HIS,,background,18.698632811960156,70.74829931972789
+All modeled amino acids,A,86,HIS,,background,18.71111232638967,70.91836734693878
+All modeled amino acids,A,90,ILE,,background,18.757753013100164,71.08843537414965
+All modeled amino acids,A,378,ASP,,background,18.799043439910832,71.25850340136054
+All modeled amino acids,A,376,ASP,,background,18.84472047862139,71.42857142857143
+All modeled amino acids,A,434,PRO,,background,18.86410559842735,71.59863945578232
+All modeled amino acids,A,364,TRP,,background,18.880683374539373,71.7687074829932
+All modeled amino acids,A,119,SER,,background,19.009353092919213,71.93877551020408
+All modeled amino acids,A,534,GLU,,background,19.048930969427747,72.10884353741497
+All modeled amino acids,A,343,LEU,,background,19.049019672439755,72.27891156462584
+All modeled amino acids,A,361,ILE,,background,19.07225897898329,72.44897959183673
+All modeled amino acids,A,567,LEU,,background,19.088051963365103,72.61904761904762
+All modeled amino acids,A,373,TRP,,background,19.09296949815553,72.78911564625851
+All modeled amino acids,A,539,LEU,63.820777893066406,all NuXL scores,19.094953701532848,72.95918367346938
+All modeled amino acids,A,538,ALA,,background,19.103834174035935,73.12925170068027
+All modeled amino acids,A,661,TYR,,background,19.12603523596388,73.29931972789116
+All modeled amino acids,A,574,ASN,,background,19.136771456119313,73.46938775510205
+All modeled amino acids,A,262,TYR,70.06549072265625,all NuXL scores,19.185875295441303,73.63945578231292
+All modeled amino acids,A,406,LEU,,background,19.186458940149592,73.80952380952381
+All modeled amino acids,A,674,PRO,,background,19.190005468284376,73.9795918367347
+All modeled amino acids,A,353,PRO,,background,19.208700060746352,74.14965986394557
+All modeled amino acids,A,82,GLY,,background,19.252516385317087,74.31972789115646
+All modeled amino acids,A,65,GLN,,background,19.310245478548378,74.48979591836735
+All modeled amino acids,A,99,PHE,,background,19.318868820753295,74.65986394557824
+All modeled amino acids,A,105,LEU,,background,19.33438667849098,74.82993197278911
+All modeled amino acids,A,547,ASN,,background,19.365181291963903,75.0
+All modeled amino acids,A,98,TYR,,background,19.402602610070932,75.17006802721089
+All modeled amino acids,A,102,LEU,60.9478645324707,all NuXL scores,19.419464359849023,75.34013605442176
+All modeled amino acids,A,621,THR,,background,19.41960144836222,75.51020408163265
+All modeled amino acids,A,336,LEU,,background,19.48203944226459,75.68027210884354
+All modeled amino acids,A,346,ALA,,background,19.687642543119765,75.85034013605443
+All modeled amino acids,A,527,ASP,,background,19.73116328045372,76.0204081632653
+All modeled amino acids,A,530,PHE,,background,19.798158188383724,76.19047619047619
+All modeled amino acids,A,179,LYS,,background,19.8432040854966,76.36054421768708
+All modeled amino acids,A,117,PRO,,background,19.865428182300324,76.53061224489795
+All modeled amino acids,A,106,GLU,,background,19.893073339228277,76.70068027210884
+All modeled amino acids,A,53,GLN,,background,19.90035723143026,76.87074829931973
+All modeled amino acids,A,428,VAL,,background,19.90215894921091,77.04081632653062
+All modeled amino acids,A,394,PRO,,background,19.980302744200092,77.21088435374149
+All modeled amino acids,A,116,GLN,,background,19.99954221786714,77.38095238095238
+All modeled amino acids,A,199,HIS,,background,20.039016351278665,77.55102040816327
+All modeled amino acids,A,198,LEU,,background,20.07029648805787,77.72108843537416
+All modeled amino acids,A,407,GLU,,background,20.112125301947387,77.89115646258503
+All modeled amino acids,A,64,GLY,,background,20.263583291336985,78.06122448979592
+All modeled amino acids,A,263,ASP,,background,20.31276277372718,78.2312925170068
+All modeled amino acids,A,115,PRO,,background,20.368338221803548,78.40136054421768
+All modeled amino acids,A,616,ASN,,background,20.400772308468987,78.57142857142857
+All modeled amino acids,A,623,SER,,background,20.422980855077938,78.74149659863946
+All modeled amino acids,A,337,GLU,,background,20.433418961206783,78.91156462585035
+All modeled amino acids,A,531,PRO,79.61410522460938,all NuXL scores,20.455129455282705,79.08163265306122
+All modeled amino acids,A,210,PHE,,background,20.462410108923653,79.25170068027211
+All modeled amino acids,A,344,GLU,,background,20.46473166407441,79.421768707483
+All modeled amino acids,A,543,PHE,,background,20.485105748527825,79.59183673469387
+All modeled amino acids,A,349,SER,,background,20.619230837080398,79.76190476190476
+All modeled amino acids,A,624,MET,,background,20.67608129853367,79.93197278911565
+All modeled amino acids,A,433,MET,,background,20.715119321081712,80.10204081632654
+All modeled amino acids,A,524,PRO,,background,20.750953781190578,80.27210884353741
+All modeled amino acids,A,314,GLY,,background,20.790874731680614,80.4421768707483
+All modeled amino acids,A,613,PRO,,background,20.791407954823903,80.61224489795919
+All modeled amino acids,A,347,ASP,,background,20.7945251946597,80.78231292517007
+All modeled amino acids,A,572,LEU,68.54342651367188,all NuXL scores,20.823045990454673,80.95238095238095
+All modeled amino acids,A,564,SER,,background,20.827664255191753,81.12244897959184
+All modeled amino acids,A,59,PRO,,background,20.88902007597616,81.29251700680273
+All modeled amino acids,A,702,MET,71.02919006347656,all NuXL scores,20.897784021436344,81.4625850340136
+All modeled amino acids,A,570,VAL,,background,20.996650546905396,81.63265306122449
+All modeled amino acids,A,249,LEU,,background,21.005446510010078,81.80272108843538
+All modeled amino acids,A,375,THR,,background,21.14669456800928,81.97278911564626
+All modeled amino acids,A,124,GLU,,background,21.18327459615203,82.14285714285714
+All modeled amino acids,A,528,PRO,,background,21.216696118860455,82.31292517006803
+All modeled amino acids,A,614,PHE,,background,21.230335086754167,82.48299319727892
+All modeled amino acids,A,56,LYS,,background,21.323670615831638,82.65306122448979
+All modeled amino acids,A,250,GLN,,background,21.38802420478686,82.82312925170068
+All modeled amino acids,A,673,CYS,,background,21.456618285020095,82.99319727891157
+All modeled amino acids,A,568,ARG,,background,21.473448418613607,83.16326530612245
+All modeled amino acids,A,405,HIS,,background,21.509103966858497,83.33333333333333
+All modeled amino acids,A,112,VAL,,background,21.53495233929331,83.50340136054422
+All modeled amino acids,A,175,ARG,,background,21.60587841843875,83.6734693877551
+All modeled amino acids,A,62,GLU,,background,21.677645342633205,83.84353741496598
+All modeled amino acids,A,429,LYS,,background,21.93888597482611,84.01360544217687
+All modeled amino acids,A,87,ALA,,background,21.94329258377832,84.18367346938776
+All modeled amino acids,A,395,PRO,,background,21.965491229232256,84.35374149659864
+All modeled amino acids,A,350,ASN,,background,21.966162225957145,84.52380952380952
+All modeled amino acids,A,54,GLU,,background,21.997037541296784,84.6938775510204
+All modeled amino acids,A,178,HIS,,background,22.047257702818523,84.8639455782313
+All modeled amino acids,A,311,ALA,,background,22.085371055016875,85.03401360544218
+All modeled amino acids,A,85,SER,,background,22.138420578231475,85.20408163265306
+All modeled amino acids,A,362,THR,,background,22.183997330806054,85.37414965986395
+All modeled amino acids,A,259,ILE,60.87289047241211,all NuXL scores,22.25457485653009,85.54421768707483
+All modeled amino acids,A,123,GLU,,background,22.273543882471618,85.71428571428571
+All modeled amino acids,A,206,PHE,,background,22.274927019473925,85.8843537414966
+All modeled amino acids,A,546,MET,74.59797668457033,all NuXL scores,22.300879849652432,86.05442176870748
+All modeled amino acids,A,109,GLY,,background,22.322794190941824,86.22448979591837
+All modeled amino acids,A,662,GLU,,background,22.34056889965901,86.39455782312925
+All modeled amino acids,A,91,LEU,,background,22.369820765162466,86.56462585034014
+All modeled amino acids,A,339,SER,,background,22.405093909898955,86.73469387755102
+All modeled amino acids,A,340,GLU,,background,22.41595623347208,86.9047619047619
+All modeled amino acids,A,363,GLN,,background,22.539204717505644,87.07482993197279
+All modeled amino acids,A,701,MET,,background,22.573558187763854,87.24489795918367
+All modeled amino acids,A,110,GLN,,background,22.794578349365853,87.41496598639456
+All modeled amino acids,A,404,MET,,background,22.809208441867863,87.58503401360544
+All modeled amino acids,A,261,PHE,,background,22.878788409110555,87.75510204081633
+All modeled amino acids,A,672,GLN,,background,22.921268772346803,87.92517006802721
+All modeled amino acids,A,573,ASN,,background,22.927742232674557,88.0952380952381
+All modeled amino acids,A,545,ARG,,background,22.991928224763683,88.26530612244898
+All modeled amino acids,A,93,CYS,77.83817291259767,all NuXL scores,23.052620972312912,88.43537414965986
+All modeled amino acids,A,113,GLU,,background,23.095236170921968,88.60544217687075
+All modeled amino acids,A,432,SER,,background,23.12612146935802,88.77551020408163
+All modeled amino acids,A,260,LEU,,background,23.332851159054464,88.94557823129252
+All modeled amino acids,A,540,ASP,,background,23.363098537242582,89.1156462585034
+All modeled amino acids,A,566,GLU,,background,23.387464693345443,89.28571428571429
+All modeled amino acids,A,569,ASN,,background,23.398521065563994,89.45578231292517
+All modeled amino acids,A,396,LYS,,background,23.569186107618073,89.62585034013605
+All modeled amino acids,A,95,LYS,,background,23.579075271464063,89.79591836734694
+All modeled amino acids,A,114,VAL,,background,23.633995706971703,89.96598639455782
+All modeled amino acids,A,200,ALA,,background,23.636717394520055,90.1360544217687
+All modeled amino acids,A,89,GLU,,background,23.6396335781512,90.3061224489796
+All modeled amino acids,A,209,GLY,,background,23.652366305210023,90.47619047619048
+All modeled amino acids,A,97,LYS,,background,23.653072514119597,90.64625850340136
+All modeled amino acids,A,101,GLU,,background,23.674395464393594,90.81632653061224
+All modeled amino acids,A,207,PRO,,background,23.693301408392514,90.98639455782313
+All modeled amino acids,A,544,PRO,,background,23.868091352850865,91.15646258503402
+All modeled amino acids,A,111,LYS,,background,23.924960506931022,91.3265306122449
+All modeled amino acids,A,313,GLY,,background,23.948086782133682,91.49659863945578
+All modeled amino acids,A,565,LYS,,background,24.025584350838315,91.66666666666667
+All modeled amino acids,A,205,PRO,,background,24.065784282008934,91.83673469387755
+All modeled amino acids,A,342,ALA,,background,24.071812774029823,92.00680272108843
+All modeled amino acids,A,176,PRO,,background,24.201758481264847,92.17687074829932
+All modeled amino acids,A,88,LYS,,background,24.281497949189923,92.34693877551021
+All modeled amino acids,A,401,LEU,,background,24.316740499546512,92.51700680272108
+All modeled amino acids,A,104,ASP,,background,24.452696607764338,92.68707482993197
+All modeled amino acids,A,92,HIS,,background,24.777587457878912,92.85714285714286
+All modeled amino acids,A,669,ASP,,background,24.809719229108183,93.02721088435374
+All modeled amino acids,A,663,PRO,,background,24.91953264028428,93.19727891156462
+All modeled amino acids,A,430,LYS,,background,24.978113878201317,93.36734693877551
+All modeled amino acids,A,258,GLU,,background,25.035323734149582,93.5374149659864
+All modeled amino acids,A,100,LYS,119.67053985595702,all NuXL scores,25.078264527202194,93.70748299319727
+All modeled amino acids,A,525,GLU,,background,25.099664555262272,93.87755102040816
+All modeled amino acids,A,312,GLU,,background,25.11884867546287,94.04761904761905
+All modeled amino acids,A,103,GLU,,background,25.19018766490761,94.21768707482993
+All modeled amino acids,A,177,HIS,,background,25.26463247954763,94.38775510204081
+All modeled amino acids,A,60,GLU,,background,25.338231852512166,94.5578231292517
+All modeled amino acids,A,526,ASP,,background,25.637281009549447,94.72789115646259
+All modeled amino acids,A,96,ASN,,background,25.686305026684444,94.89795918367346
+All modeled amino acids,A,431,SER,,background,25.730456046837254,95.06802721088435
+All modeled amino acids,A,61,GLY,,background,26.07218745747007,95.23809523809524
+All modeled amino acids,A,397,ASP,,background,26.140288095401345,95.40816326530613
+All modeled amino acids,A,403,ALA,,background,26.203008773983704,95.578231292517
+All modeled amino acids,A,201,ASP,,background,26.232393077291412,95.74829931972789
+All modeled amino acids,A,341,GLY,,background,26.23556144474053,95.91836734693878
+All modeled amino acids,A,204,VAL,,background,26.466557063533447,96.08843537414965
+All modeled amino acids,A,400,LYS,81.25236511230469,all NuXL scores,26.517146201014967,96.25850340136054
+All modeled amino acids,A,257,LYS,75.4847183227539,all NuXL scores,26.519113897576624,96.42857142857143
+All modeled amino acids,A,541,PRO,,background,26.520965695293512,96.59863945578232
+All modeled amino acids,A,251,ILE,,background,26.543640091303704,96.7687074829932
+All modeled amino acids,A,202,MET,,background,26.793270217304617,96.93877551020408
+All modeled amino acids,A,208,GLU,,background,26.856284724710626,97.10884353741497
+All modeled amino acids,A,671,LEU,,background,27.034537089285813,97.27891156462584
+All modeled amino acids,A,664,ASP,,background,27.142482502895337,97.44897959183673
+All modeled amino acids,A,203,ASN,,background,27.24292091600292,97.61904761904762
+All modeled amino acids,A,402,GLN,,background,27.43813395616164,97.78911564625851
+All modeled amino acids,A,542,SER,,background,27.48313800569251,97.95918367346938
+All modeled amino acids,A,252,ASP,,background,28.759358984351557,98.12925170068027
+All modeled amino acids,A,398,PRO,61.41289520263672,all NuXL scores,29.29706142370297,98.29931972789116
+All modeled amino acids,A,670,ALA,,background,29.430470672201512,98.46938775510205
+All modeled amino acids,A,399,GLU,,background,29.8787800876517,98.63945578231292
+All modeled amino acids,A,668,PRO,,background,29.90907006438044,98.80952380952381
+All modeled amino acids,A,256,ARG,,background,30.004819170507613,98.9795918367347
+All modeled amino acids,A,667,ASN,,background,30.2504101606692,99.14965986394557
+All modeled amino acids,A,665,SER,,background,30.542821185873123,99.31972789115646
+All modeled amino acids,A,255,GLY,,background,31.705544698626206,99.48979591836735
+All modeled amino acids,A,253,VAL,,background,32.15361600387694,99.65986394557824
+All modeled amino acids,A,666,ALA,,background,33.33665563787922,99.82993197278911
+All modeled amino acids,A,254,ASP,,background,34.96565392152984,100.0
+>60 to <72.5,A,689,PHE,65.62844848632812,low,3.442930482812151,3.7037037037037037
+>60 to <72.5,A,286,LYS,61.5511589050293,low,6.206049101923246,7.407407407407407
+>60 to <72.5,A,267,CYS,69.10436248779297,low,7.227516881001296,11.11111111111111
+>60 to <72.5,A,638,PHE,68.715087890625,low,7.608335006238087,14.814814814814815
+>60 to <72.5,A,182,ASP,62.21749114990234,low,9.360176394811749,18.51851851851852
+>60 to <72.5,A,654,LYS,60.7514533996582,low,9.650046526386985,22.22222222222222
+>60 to <72.5,A,692,LYS,65.15971374511719,low,9.971341945054508,25.925925925925927
+>60 to <72.5,A,139,SER,71.43498229980469,low,10.713030486049123,29.62962962962963
+>60 to <72.5,A,553,THR,71.93098449707031,low,11.437038041436784,33.333333333333336
+>60 to <72.5,A,536,PHE,66.63477325439453,low,11.506409738950065,37.03703703703704
+>60 to <72.5,A,649,ALA,65.88064575195312,low,12.560537492091427,40.74074074074074
+>60 to <72.5,A,75,PRO,60.17421722412109,low,12.965453136817182,44.44444444444444
+>60 to <72.5,A,647,SER,65.98009490966797,low,14.221894876764946,48.148148148148145
+>60 to <72.5,A,629,ILE,67.26303100585938,low,14.63391978047879,51.851851851851855
+>60 to <72.5,A,304,THR,62.01580047607422,low,14.99906416239296,55.55555555555556
+>60 to <72.5,A,47,LEU,64.99573516845703,low,15.585947842659138,59.25925925925926
+>60 to <72.5,A,562,MET,69.81817626953125,low,16.16163677854466,62.96296296296296
+>60 to <72.5,A,644,GLU,67.91542053222656,low,16.629107443125445,66.66666666666667
+>60 to <72.5,A,315,ARG,62.17670440673828,low,17.075839744701845,70.37037037037037
+>60 to <72.5,A,612,TYR,68.23490142822266,low,18.05028511508538,74.07407407407408
+>60 to <72.5,A,539,LEU,63.820777893066406,low,19.094953701532848,77.77777777777777
+>60 to <72.5,A,262,TYR,70.06549072265625,low,19.185875295441303,81.48148148148148
+>60 to <72.5,A,102,LEU,60.9478645324707,low,19.419464359849023,85.18518518518519
+>60 to <72.5,A,572,LEU,68.54342651367188,low,20.823045990454673,88.88888888888889
+>60 to <72.5,A,702,MET,71.02919006347656,low,20.897784021436344,92.5925925925926
+>60 to <72.5,A,259,ILE,60.87289047241211,low,22.25457485653009,96.29629629629629
+>60 to <72.5,A,398,PRO,61.41289520263672,low,29.29706142370297,100.0
+72.5 to <85,A,637,PHE,76.05361938476562,medium,3.0366732800481495,7.142857142857143
+72.5 to <85,A,138,LYS,82.43722534179688,medium,3.7623494736210965,14.285714285714286
+72.5 to <85,A,41,ILE,72.84947967529298,medium,4.169281165301873,21.428571428571427
+72.5 to <85,A,284,TRP,74.72635650634764,medium,7.331020107137073,28.571428571428573
+72.5 to <85,A,40,GLU,79.9039764404297,medium,7.588803338304089,35.714285714285715
+72.5 to <85,A,285,LYS,73.07210540771484,medium,7.621932962706357,42.857142857142854
+72.5 to <85,A,633,GLN,76.449462890625,medium,11.45209583021143,50.0
+72.5 to <85,A,308,GLU,78.611572265625,medium,15.415159001556312,57.142857142857146
+72.5 to <85,A,354,GLY,84.230712890625,medium,18.617305768722844,64.28571428571429
+72.5 to <85,A,531,PRO,79.61410522460938,medium,20.455129455282705,71.42857142857143
+72.5 to <85,A,546,MET,74.59797668457033,medium,22.300879849652432,78.57142857142857
+72.5 to <85,A,93,CYS,77.83817291259767,medium,23.052620972312912,85.71428571428571
+72.5 to <85,A,400,LYS,81.25236511230469,medium,26.517146201014967,92.85714285714286
+72.5 to <85,A,257,LYS,75.4847183227539,medium,26.519113897576624,100.0
+>=85,A,282,ASP,85.75613403320312,high,2.689526268210989,5.555555555555555
+>=85,A,281,ILE,96.59356689453124,high,2.872686651307749,11.11111111111111
+>=85,A,37,GLY,92.42327880859376,high,4.273840845183198,16.666666666666668
+>=85,A,38,TYR,150.92076110839844,high,4.300221840890811,22.22222222222222
+>=85,A,640,LYS,86.72212219238281,high,5.795918031587477,27.77777777777778
+>=85,A,184,CYS,94.08053588867188,high,6.279958532093951,33.333333333333336
+>=85,A,39,PRO,102.20441436767578,high,7.0796117934357605,38.888888888888886
+>=85,A,561,TYR,107.31243133544922,high,8.117313474672597,44.44444444444444
+>=85,A,646,TYR,96.05166625976562,high,8.37027053337664,50.0
+>=85,A,650,LYS,105.24790954589844,high,8.901890219965363,55.55555555555556
+>=85,A,599,CYS,93.76800537109376,high,9.733285516323866,61.111111111111114
+>=85,A,537,TYR,88.5503158569336,high,10.840320749669695,66.66666666666667
+>=85,A,52,TYR,87.17488098144531,high,12.508259303070478,72.22222222222223
+>=85,A,632,THR,92.63966369628906,high,13.666915112925375,77.77777777777777
+>=85,A,51,TYR,108.86892700195312,high,14.621926015724314,83.33333333333333
+>=85,A,532,PRO,122.78913879394533,high,17.138010327339362,88.88888888888889
+>=85,A,577,LYS,98.7535400390625,high,17.73746547108979,94.44444444444444
+>=85,A,100,LYS,119.67053985595702,high,25.078264527202194,100.0
